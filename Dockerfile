@@ -1,6 +1,6 @@
 # Dockerfile to install the latest version of RoonServer for Linux x86_64
 
-FROM debian:bullseye-slim
+FROM debian:11.3-slim
 
 # Install prerequisite packages
 RUN apt-get update \
